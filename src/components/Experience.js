@@ -27,7 +27,7 @@ const Experience = () => {
                 <article>
                     <div className="flex" data-aos="fade-left">
                         <MdCastForEducation className='text-[26px] ml-1 mt-[6px]'></MdCastForEducation>
-                        <p className="ml-2 mt-2">Study</p>
+                        <p className="ml-2 mt-2">Non Formal Education</p>
                     </div>
                     <div className="flex" data-aos="fade-right">
                         <MdSchool className='text-[26px] ml-8 mt-[6px]'></MdSchool>
