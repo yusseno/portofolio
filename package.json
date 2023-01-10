@@ -1,8 +1,8 @@
 {
   "name": "portofolio",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "http://yusseno.github.io/yusseno",
+  "private": false,
+  "homepage": "http://yusseno.github.io/portofolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
