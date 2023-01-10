@@ -53,7 +53,7 @@ const Header = () => {
                             <a href="#contact" className="block py-1 hover:text-[#64FFDA]">Contact</a>
                         </li>
                         <li>
-                            <a href="https://drive.google.com/file/d/1Qm2ZQTy_i3WolZdyuzh9JA65ato3hBMK/view?usp=share_link" className="block m-auto w-fit p-1 px-4 border-[1px] rounded-md border-[#64FFDA] text-[#64FFDA]">Resume</a>
+                            <a href="https://drive.google.com/file/d/1YAlhgg51_5NGEcPUVkd9xBDQNrppX-ZD/view?usp=share_link" className="block m-auto w-fit p-1 px-4 border-[1px] rounded-md border-[#64FFDA] text-[#64FFDA]">Resume</a>
                         </li>
                     </ul>
                 </div>
