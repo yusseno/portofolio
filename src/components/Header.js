@@ -21,7 +21,7 @@ const Header = () => {
     }, false);
     
     return (
-        <header className='absolute w-full transition duration-700 z-50 ' id='nav' ref={navRef}>
+        <header className='absolute w-full transition duration-700 z-50' id='nav' ref={navRef}>
             <nav class="lg:flex justify-between items-center bg-[#09192F] text-slate-200 px-8 lg:px-16 py-4 font-mono max-[1023px]:opacity-90 max-[1023px]shadow-sm shadow-white">
                 <div class="flex justify-between items-center w-full">
                     <a href="#home" class="flex items-center">
@@ -35,7 +35,7 @@ const Header = () => {
                         </div>
                     </aside>
                 </div>
-                <div class="w-full lg:flex lg:w-auto lg:order-1 navbar-mobile">
+                <div class="w-full lg:flex lg:w-auto lg:order-1 navbar-mobile max-[1023px]:hidden">
                     <ul class="flex flex-col justify-between mt-4 text-md lg:flex-row lg:space-x-8 lg:mt-0 lg:mr-0">
                         <li>
                             <a href="#about" className="block py-1 hover:text-[#64FFDA]">About</a>
