@@ -30,15 +30,34 @@ const Projects = () => {
                 </div>
                 <div className="relative group">
                     <img src={Kanban} className="pr-4" data-aos="fade-right"></img>
+                    <div
+                        class="flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full">
+                    </div>
+                    <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
+                        <div class="flex-row text-center">
+                            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                                <a href="https://github.com/yusseno/golang-kanban_app">View Source Code</a>
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div
                     class="flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full">
                 </div>
-               
             </div>
-            <div className="grid grid-cols-2 pt-8">
-                <div className="">
+            <div class="grid grid-cols-2 pt-8">
+                <div class="relative group">
                     <img src={Cashier} className="pl-4" data-aos="fade-right"></img>
+                    <div
+                        class="flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full">
+                    </div>
+                    <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
+                        <div class="flex-row text-center">
+                            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                                <a href="https://github.com/yusseno/golang-cashier_app">View Source Code</a>
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div className="text-left p-4" data-aos="fade-left">
                     <span className="flex text-[#64FFDA] text-[16px]">future Project</span>
@@ -46,7 +65,6 @@ const Projects = () => {
                     <span className="flex text-[16px] text-justify italic">Project ini dibangun ketika mengerjakan Assigmrnt project MKBM Studi Independen di Ruang Guru, dengan program Sofware Enginnering dengan pilihan kelas Backend</span>
                     <span className="flex text-[16px] text-justify italic">Teknologi : Golang dan TailwindCSS</span>
                 </div>
-
             </div>
 
         </div>
