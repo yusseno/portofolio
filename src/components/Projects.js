@@ -1,6 +1,10 @@
 import React, { useEffect } from "react";
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import Kanban from '../assets/images/kanban_app.png'
+import Cashier from '../assets/images/cashier_app.png'
+
+
 
 const Projects = () => {
     
@@ -17,24 +21,37 @@ const Projects = () => {
                 <div className="bg-slate-400 w-full h-[2px] mt-6 ml-2">
                 </div>
             </div> 
-            <div className="grid grid-cols-1 lg:grid lg:grid-cols-2 py-4" data-aos="fade-left">
-                <figure className="flex justify-center pb-6">
-                    <div className="w-[250px] h-[260px] bg-red-400 rounded-md z-10">
+            <div className="grid grid-cols-2 pt-8">
+                <div className="text-left p-4" data-aos="fade-left">
+                    <span className="flex text-[#64FFDA] text-[16px]">future Project</span>
+                    <span className="flex font-semibold text-[22px]">Kanban APP</span>
+                    <span className="flex text-[16px] text-justify italic">Project ini dibangun ketika mengerjakan final project MKBM Studi Independen di Ruang Guru, dengan program Sofware Enginnering dengan pilihan kelas Backend</span>
+                    <span className="flex text-[16px] text-justify italic">Teknologi : Golang dan TailwindCSS</span>
+                </div>
+                <div className="relative group">
+                    <img src={Kanban} className="pr-4" data-aos="fade-right"></img>
+                </div>
+                <div
+                    class="flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full">
+                </div>
+                <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
+                    <div class="flex-row text-center">
+                    <h1 class="text-gray-50 font-bold text-lg">Be careful on the way.</h1>
+                    <p class="text-gray-200 font-medium text-sm">Tulus</p>
+                    <small class="text-xs font-light text-gray-300">Photo by Sébastien Goldberg on Unsplash</small>
                     </div>
-                    <div className="w-[250px] h-[260px] rounded-md absolute ml-10 mt-5 border-2 border-[#64FFDA] z-0">
-                    </div>
-                </figure>
-                <figurcaption className="pb-8 min-[1023px]:hidden">Apalikasi Kanban</figurcaption>
-                <figure className="flex justify-center pb-6">
-                    <div className="w-[250px] h-[260px] bg-red-400 rounded-md z-10">
-                    </div>
-                    <div className="w-[250px] h-[260px] rounded-md absolute ml-10 mt-5 border-2 border-[#64FFDA] z-0">
-                    </div>
-                </figure>
-                <figurcaption className="pb-8 min-[1023px]:hidden">Apalikasi Kanban</figurcaption>
-                {/* resulusi desktop */}
-                <figurcaption className="pb-8 max-[1023px]:hidden">Apalikasi Kanban</figurcaption>
-                <figurcaption className="pb-8 max-[1023px]:hidden">On Progress</figurcaption>
+                </div>
+            </div>
+            <div className="grid grid-cols-2 pt-8">
+                <div className="">
+                    <img src={Cashier} className="pl-4" data-aos="fade-right"></img>
+                </div>
+                <div className="text-left p-4" data-aos="fade-left">
+                    <span className="flex text-[#64FFDA] text-[16px]">future Project</span>
+                    <span className="flex font-semibold text-[22px]">Cashier APP</span>
+                    <span className="flex text-[16px] text-justify italic">Project ini dibangun ketika mengerjakan Assigmrnt project MKBM Studi Independen di Ruang Guru, dengan program Sofware Enginnering dengan pilihan kelas Backend</span>
+                    <span className="flex text-[16px] text-justify italic">Teknologi : Golang dan TailwindCSS</span>
+                </div>
 
             </div>
 

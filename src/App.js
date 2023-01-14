@@ -21,7 +21,7 @@ function App() {
       <Projects />
       <Contact />
       <Social_media />
-      {/* <Test /> */}
+      <Test />
     </div>
   );
 }
